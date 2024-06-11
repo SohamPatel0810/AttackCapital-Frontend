@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-featured blog application built with Next.js. It includes server-side rendering (SSR) for the homepage, static generation for blog posts, client-side routing, and protected routes for authenticated users. The UI is styled with CSS modules and is fully responsive.
+This is a full-featured blog application built with Next.js. It includes server-side rendering (SSR) for the homepage, static generation for blog posts, client-side routing, and protected routes for authenticated users. The UI is styled with styled components and is fully responsive.
 
 ## Features
 
@@ -15,20 +15,18 @@ This is a full-featured blog application built with Next.js. It includes server-
 ## Project Structure
 
 - **pages/**: Contains all the pages of the application.
-  - **index.js**: Homepage with server-side rendering.
-  - **login.js**: Login page.
-  - **signup.js**: Sign-up page.
-  - **dashboard.js**: Protected route for the user dashboard.
+  - **home.tsx**: Homepage with server-side rendering.
+  - **login.tsx**: Login page.
+  - **signup.tsx**: Sign-up page.
+  - **dashboard.tsx**: Protected route for the user dashboard.
 - **components/**: Reusable components across the application.
 - **styles/**: CSS modules for component-level styling.
-- **lib/**: Utility functions and API calls.
-- **middleware/**: Middleware for handling authentication.
 
 ## Setup Instructions
 
 ### Prerequisites
 
-- Node.js (v14.x or later)
+- Node.js (v18.x or later)
 - npm (v6.x or later) or Yarn (v1.x or later)
 
 ### Installation
